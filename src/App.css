@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Walkway;
+  src: url('./assets/Walkway Bold.ttf');
+}
+
+@font-face {
+  font-family: Walkway Rounded;
+  src: url('./assets/Walkway rounded.ttf');
+}
+
+.date-range .react-datepicker-wrapper {
+  display: flex;
+  flex: 1;
+  max-width: 160px;
+}
+
+.date-range .react-datepicker__input-container {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .date-range .react-datepicker-wrapper {
+      max-width: 100%;
+  }
+}
+
+.select-wallet {
+  font-size: .8rem !important;
+  margin-bottom: 0 !important;
+}
+
+.connect-wallet-item-wrapper {
+  align-items: center;
+}
+
+.navbar-search {
+  background-color: #fff !important;
+}
+
+.main-sidebar__nav-title {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: .625rem;
+  letter-spacing: .125rem;
+  padding: 1px 1.5625rem;
+  font-weight: 500;
+  color: #9ea8b9;
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.main-sidebar .nav {
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.normal-font-weight {
+  font-weight: normal !important;
+}
+
+.bold-font-weight {
+  font-weight: bold !important;
+}
+
+.stats-small__data {
+  max-width: 65% !important;
+}
+
+.stats-small__data.percentage {
+  max-width: 35% !important;
+}
+
+.wrap-text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+  display: block;
+}
+
+.gradient-text {
+  letter-spacing: 1px !important;
+  background-color: #21D4FD !important;
+  background-image: linear-gradient(19deg, #02c076 0%, #17eb6f 100%) !important;
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  font-family: 'Walkway', sans-serif;
+}
+
+.gradient-bg {
+  background-color: #21D4FD !important;
+  background-image: linear-gradient(19deg, #02c076 0%, #17eb6f 100%) !important;
+}
+
+.page-title-h1 {
+  font-size: 2.3rem !important;
+}
+
+.sidebar-title {
+  font-family: 'Walkway Rounded', sans-serif;
+  letter-spacing: 3px !important;
+  font-size: 25px !important;
+}
+
+.font-size-90pct {
+  font-size: 90% !important;
+}
+
+.rounded-border {
+  border-radius: .625rem ;
+}
+
+.not-allowed {
+  cursor: not-allowed !important;
+}
